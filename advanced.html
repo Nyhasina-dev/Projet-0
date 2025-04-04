@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="logo-google">
+      <a href="index.html"
+        ><img src="google image.png" alt="google image" width="80px"
+      /></a>
+    </header>
+    <main class="title">
+      <h2>Advanced Search</h2>
+      <h3>Find pages with...</h3>
+
+      <div class="separator">
+        <form action="https://www.google.com/search" method="GET">
+          <div class="advanced-form">
+            <div class="form-group">
+              <label> all these words:</label>
+              <input type="text" name="as_q" class="advanced-input" />
+              <span>
+                Type the important words:
+                <code>tri-colour rat terrier</code>
+              </span>
+            </div>
+            <div class="form-group">
+              <label> this exact word or phrase:</label>
+              <input type="text" name="as_epq" class="advanced-input" />
+              <span>
+                Put exact words in quotes:
+                <code>"rat terrier"</code>
+              </span>
+            </div>
+            <div class="form-group">
+              <label> any of these words:</label>
+              <input type="text" name="as_oq" class="advanced-input" />
+              <span>
+                Type <strong>OR</strong> between all the words you want:
+                <code>miniature OR standard</code>
+              </span>
+            </div>
+            <div class="form-group">
+              <label> none of these words:</label>
+              <input type="text" name="as_eq" class="advanced-input" />
+              <span>
+                Put a minus sign just before words that you don't want:
+                <code>-rodent, -"Jack Russell"</code>
+              </span>
+            </div>
+            <div class="form-group">
+              <label> numbers ranging from:</label>
+              <input type="text" name="as_nlo" class="advanced-input" />
+              <span>to</span>
+              <input type="text" name="as_nhi" class="advanced-input" />
+              <span>
+                Put two full stops between the numbers and add a unit of
+                measurement:
+                <code> 10..35 kg, £300..£500, 2010..2011</code>
+              </span>
+            </div>
+          </div>
+          <div class="form-group">
+            <input
+              type="submit"
+              value="Advanced Search"
+              class="Advanced-btn"
+            />
+          </div>
+      </div>
+      </form>
+    </main>
+  </body>
+</html>

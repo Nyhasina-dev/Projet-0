@@ -1,0 +1,105 @@
+* {
+  background-color: #202124;
+  color: white;
+}
+body {
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+.search-input {
+  padding: 10px;
+  width: 500px;
+  border-radius: 20px;
+  margin: 40px;
+  background-color: #414142;
+  border: none;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.google-btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #414142;
+}
+.google-btn:hover {
+  cursor: pointer;
+  background-color: #aaaaaa;
+}
+
+.input-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bloc-google {
+  position: relative;
+}
+.span-img {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  color: #4285f4;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+.logo-google > a {
+  display: flex;
+  justify-content: flex-start;
+}
+.separator {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-form {
+  max-width: 1140px;
+  margin: 40px 35px;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.Advanced-btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+}
+.Advanced-btn:hover {
+  background: #bdcee9;
+  cursor: pointer;
+}
+.title > h2 {
+  color: rgb(153, 23, 23);
+}
+.advanced-input {
+  width: 500px;
+  padding: 7px 10px;
+  border: 1px solid #d9d9d9;
+}
